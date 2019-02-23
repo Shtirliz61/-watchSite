@@ -1,0 +1,196 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {}
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+		.site-top{
+	display: none;	
+	}
+}
+   
+
+@media screen and (max-width: 530px) {
+}
+
+@media (min-width: 0) and (max-width: 360px) {
+.owl-first	.item  img{
+		height: 700px;
+    width: 1400px;}
+.owl-first .owl-nav button.owl-prev {
+	display: none;
+}
+.owl-first .owl-nav button.owl-next {
+	display: none;
+}
+
+.second-top img {
+	display: none;
+}
+
+.second-top p {
+	text-align: center;
+}
+.numbers {
+		margin-top: -4em;
+		margin-left: 4em;
+	}
+.second-top h2{margin-top: -2em;
+    font-size: 28px;
+    text-align: center;}
+.top-form {
+	width: 18.3em;
+	height: 32em;
+}
+.top-form p {
+	text-align: center;	
+	margin-left: 0;	
+}
+.top-form span {
+	text-align: center;
+	margin-left: 0;
+}
+.arrival{
+	text-align: center;
+}
+.arrival .form-first input {
+	margin-left: 1.5em;
+}
+.arrival .form-second input {
+	margin-left: 2em;
+}
+.arrival .quantity-block input {
+	margin-left: 4em;
+}
+.button-form button {
+	margin-left: 0;
+}
+.col-md-1 h4{
+	margin-left: 3.8em;
+}
+.arrival .form-second img {
+    position: absolute;
+    left: 6.5em;
+    top: 0;
+}
+.arrival .form-first img {
+    position: absolute;
+    left: 7.4em;
+    top: 0;
+ }
+
+ .main-bar h3 {
+    text-align: center;
+  }
+  .main-bar p {
+    text-align: center;
+}
+.main-bar .price-first {
+    margin-top: -0.9em;
+    margin-left: 4em;
+}
+
+.main-bar strong {
+    margin-top: -3em;
+    margin-left: 4em;
+}
+.main-bar .second-room .submit-bar-second {
+    margin-top: 0.2em;
+    margin-right: 3em;
+}
+.main-bar .third-room .submit-bar-third {
+    margin-top: 0.2em;
+    margin-right: 3em;
+}
+.main-bar .submit-bar {
+    margin-top: 1.7em;
+    margin-right: 3em;
+}
+.second-ivent .col-md-6 strong {
+    margin-left: 3em;
+}
+
+.first-ivent .col-md-6 strong {
+    margin-left: 3em;
+}
+.first-ivent .col-md-6 p {
+	text-align: center;
+}
+.first-ivent .col-md-6 a {
+    margin-left: 7.5em;
+}
+.ivent-all img:nth-child(3) {
+    margin-top: -4em;
+    }
+.second-ivent .col-md-6 p{
+	text-align: center;
+}
+.second-ivent .col-md-6 a {
+    margin-left: 7.5em;
+}
+.col-md-6 .picture-ivent-third {
+	margin-top: -4em;
+}
+.col-md-12 .ivent-all {
+	height: 94em;
+}
+.treatment-programs {
+    height: 75.75em;
+    }
+ .footer p {
+ 	text-align: center;
+ }
+.col-xs-12 .col-md-ofset-4 {
+	    margin-left: -1em;
+}
+}
+
+
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
+   
+@media only screen and (min-width: 320px) {
+
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+		#mobile_click{
+		display: none;
+	}
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {}
+
